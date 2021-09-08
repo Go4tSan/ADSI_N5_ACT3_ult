@@ -12,7 +12,28 @@
 
 
 
+<header>
 
+
+    <!-- Background image -->
+    <div
+      class="p-5 text-center bg-image"
+      style="
+        background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/bcd42d10-94a0-4474-9ee2-0b0dcf350ae5/dene5dt-d4d04b7c-2114-48db-b5ae-da65529405da.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2JjZDQyZDEwLTk0YTAtNDQ3NC05ZWUyLTBiMGRjZjM1MGFlNVwvZGVuZTVkdC1kNGQwNGI3Yy0yMTE0LTQ4ZGItYjVhZS1kYTY1NTI5NDA1ZGEucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Ws_fImKOVcegQksZ3DpLUJu_rpknYABffh-1U3Lek88');
+        height: 400px;
+      "
+    >
+      <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+        <div class="d-flex justify-content-center align-items-center h-100">
+          <div class="text-white">
+            <h1 class="mb-3">Super mega codigo sacado de stack-overflow asies</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Background image -->
+  </header>
 
     <div class="container">
         {{-- <a href="{{ route('registros.create') }}" class="btn btn-primary btn-sm mb-3 mt-3">Crear nuevo registro</a> --}}
@@ -55,4 +76,16 @@
             </table>
         </div>
     </div>
+    <footer class="text-center text-white fixed-bottom" style="background-color: #bdb7b7;">
+        <!-- Grid container -->
+        <div class="container p-4"></div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgb(9, 5, 5);">
+          © 2021 Copyright:
+          <a class="text-white" href="">CTM_GoatSan</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
 @endsection
